@@ -12,6 +12,7 @@ import sqlite3
 import csv
 import pandas as pd
 import os
+import json
 
 ### Hypothesis Parser
 def parser(
@@ -68,9 +69,25 @@ def parser(
 
 ### Hypothesis Iterator
 def Iterator(
-    hypo_string,
+    grammar,
     num = 10
 ):
-    grammar = CFG.fromstring(hypo_string)
+    sent_dict = {}
+    index = 0
     for sentence in generate(grammar, n = num):
-        print(' '.join(sentence))
+        sent = str(' '.join(sentence))
+        evaluation = 1
+        dictionary = {"sentence": sent,"evaluation":1}
+        sent_dict.update({index: dictionary})
+        index = index + 1
+        # print([str(' '.join(sentence))])
+    
+    return sent_dict
+
+### Write data to JSON file
+def sentence_to_json(
+    data,
+    filename
+):
+    with open(filename, "w") as file:
+        json.dump(data, file)

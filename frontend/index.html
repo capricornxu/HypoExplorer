@@ -1,12 +1,26 @@
 <html>
 <header>
     <title>HypoExplorer</title>
-    <script type="text/javascript" src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </header>
 
 <body>
-    
+    <textarea name="Termial Symbol"  rows="20" cols="100" id="tgrm">
+        root -> hypo
+        hypo -> expr '[' pred ']' op expr '[' pred ']'
+        expr -> func '(' var ')' | var
+        var -> attr | const
+        pred -> var op const | pred '&' pred | 
+        op -> '=' | '<'
+        attr -> 'customer_id' | 'first_name' | 'last_name' | 'age' | 'country'
+        const -> 'number' | 'string'
+        func -> 'AVG' | 'MAX' | 'MIN' | 'COUNT'
+    </textarea>
 </body>
+
+<button class="button" role="button" id="send">Send</button>
+<button class="button" role="button" id="test_btn">Test</button>
+<div id="test"></div>
 
 </html>
