@@ -97,9 +97,17 @@ def sentence_to_json(
 
 
 ### Find deterministic tree
-def tree2dict(tree):
-    return {tree.label(): [tree2dict(t)  if isinstance(t, nltk.Tree) else t
-                        for t in tree]}
+def tree_to_dict(tree):
+    if isinstance(tree, nltk.Tree):
+        return {'root': tree.label(), 
+                'subtrees': [tree_to_dict(child) for child in tree]}
+    else:
+        return  {'root': tree, 'subtrees': []}
+
+# def tree_to_dict(tree):
+#     return {'root': tree.label(), 
+#             'subtrees': [tree_to_dict(child) if isinstance(child, nltk.Tree) else child
+#                         for child in tree]}
 
 def findDeterministicTree(
     grammar
@@ -145,6 +153,6 @@ def findDeterministicTree(
 
     deterministic_tree = parser(sent = deterministic_sent, grammar  = new_grammar)
 
-    tree_dict = tree2dict(deterministic_tree[0])
+    tree_dict = tree_to_dict(deterministic_tree[0])
 
     return tree_dict

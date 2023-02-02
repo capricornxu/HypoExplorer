@@ -1,3 +1,4 @@
+// Get Request
 function httpGetAsync(theUrl, callback)
 {
     var xmlHttp = new XMLHttpRequest();
@@ -9,6 +10,7 @@ function httpGetAsync(theUrl, callback)
     xmlHttp.send(null);
 }
 
+// Post Request
 function httpPostAsync(url, data, callback) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() {
@@ -20,13 +22,46 @@ function httpPostAsync(url, data, callback) {
     xmlHttp.send(JSON.stringify(data));
 }
 
+// display a tree 
+function displayTree(tree) {
+    if (!tree.subtrees || tree.subtrees.length == 0) {
+        return '<li><code>' + tree.root + '</code></li>';
+    }
+    var builder = [];
+    if(tree.root == 'root'){
+        builder.push('<ul class="tree">');
+        builder.push('<li><code>');
+        builder.push(tree.root);
+        builder.push('</code>');
+        builder.push('<ul>');
+        for (var i in tree.subtrees) {
+            builder.push(displayTree(tree.subtrees[i]))
+        }
+    }
+    else{
+        builder.push('<li><code>');
+        builder.push(tree.root);
+        builder.push('</code>');
+        builder.push('<ul>');
+        for (var i in tree.subtrees) {
+            builder.push(displayTree(tree.subtrees[i]))
+        }
+        builder.push('</ul>')
+        builder.push('</li>')
+    }
+
+    return builder.join('');
+}
+
+// Grammar Callback
 function sendGrammarCallback(responseText) {
     // Check response is ready or not
     console.log("Data creation response received!");
+    response_data = JSON.parse(responseText)
 
     // update hypotheses table
-    dataDiv = document.getElementById('test');
-    sentences = JSON.parse(responseText)[1]
+    dataDiv = document.getElementById('hypo_table');
+    sentences = response_data[1]
     let text = "<table border='1'>"
     for (let x in sentences) {
         text += "<tr><td>" + sentences[x].sentence + "</td></tr>";
@@ -34,9 +69,16 @@ function sendGrammarCallback(responseText) {
     text += "</table>"
     dataDiv.innerHTML = text;
 
-    // TODO: show parser tree
+    // show parser tree
+    tree = response_data[0]
+    console.log(tree)
+    $('#tree').empty();
+    $('#tree').append(displayTree(tree) + '</ul></div></br>');
+    displayTree(tree)
+    console.log("tree displayed!")
 }
 
+// main entrance here
 $(document).ready(function(){
     // initialize xhr to null
     sentences = null
@@ -46,10 +88,6 @@ $(document).ready(function(){
         httpPostAsync("http://localhost:6969/users", 
                     document.getElementById('tgrm').value,
                     sendGrammarCallback)
-    })
-
-    $('#test_btn').click(function(){
-        console.log(sentences)
     })
 });
 
