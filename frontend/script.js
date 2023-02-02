@@ -21,6 +21,7 @@ function httpPostAsync(url, data, callback) {
 }
 
 function sendGrammarCallback(responseText) {
+    // TODO: show parse tree in web page
     // Check response is ready or not
     console.log("Data creation response received!");
     dataDiv = document.getElementById('test');
