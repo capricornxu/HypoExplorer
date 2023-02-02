@@ -21,11 +21,11 @@ function httpPostAsync(url, data, callback) {
 }
 
 function sendGrammarCallback(responseText) {
-    // TODO: show parse tree in web page
     // Check response is ready or not
     console.log("Data creation response received!");
+
+    // update hypotheses table
     dataDiv = document.getElementById('test');
-    // Set current data text
     sentences = JSON.parse(responseText)[1]
     let text = "<table border='1'>"
     for (let x in sentences) {
@@ -33,6 +33,8 @@ function sendGrammarCallback(responseText) {
     }
     text += "</table>"
     dataDiv.innerHTML = text;
+
+    // TODO: show parser tree
 }
 
 $(document).ready(function(){
