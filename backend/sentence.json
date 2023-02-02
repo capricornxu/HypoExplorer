@@ -1,1 +1,181 @@
-{"0": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number ]", "evaluation": 1}, "1": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = string ]", "evaluation": 1}, "2": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id < number ]", "evaluation": 1}, "3": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id < string ]", "evaluation": 1}, "4": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name = number ]", "evaluation": 1}, "5": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name = string ]", "evaluation": 1}, "6": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name < number ]", "evaluation": 1}, "7": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name < string ]", "evaluation": 1}, "8": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name = number ]", "evaluation": 1}, "9": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name = string ]", "evaluation": 1}, "10": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name < number ]", "evaluation": 1}, "11": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name < string ]", "evaluation": 1}, "12": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age = number ]", "evaluation": 1}, "13": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age = string ]", "evaluation": 1}, "14": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age < number ]", "evaluation": 1}, "15": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age < string ]", "evaluation": 1}, "16": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country = number ]", "evaluation": 1}, "17": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country = string ]", "evaluation": 1}, "18": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country < number ]", "evaluation": 1}, "19": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country < string ]", "evaluation": 1}, "20": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number = number ]", "evaluation": 1}, "21": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number = string ]", "evaluation": 1}, "22": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number < number ]", "evaluation": 1}, "23": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number < string ]", "evaluation": 1}, "24": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string = number ]", "evaluation": 1}, "25": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string = string ]", "evaluation": 1}, "26": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string < number ]", "evaluation": 1}, "27": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string < string ]", "evaluation": 1}, "28": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id = number ]", "evaluation": 1}, "29": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id = string ]", "evaluation": 1}, "30": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id < number ]", "evaluation": 1}, "31": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id < string ]", "evaluation": 1}, "32": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name = number ]", "evaluation": 1}, "33": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name = string ]", "evaluation": 1}, "34": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name < number ]", "evaluation": 1}, "35": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name < string ]", "evaluation": 1}, "36": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name = number ]", "evaluation": 1}, "37": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name = string ]", "evaluation": 1}, "38": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name < number ]", "evaluation": 1}, "39": {"sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name < string ]", "evaluation": 1}}
+[
+  {
+    "root": [
+      {
+        "hypo": [
+          "expr",
+          "[",
+          "pred",
+          "]",
+          "op",
+          "expr",
+          "[",
+          "pred",
+          "]"
+        ]
+      }
+    ]
+  },
+  {
+    "0": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number ]",
+      "evaluation": 1
+    },
+    "1": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = string ]",
+      "evaluation": 1
+    },
+    "2": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id < number ]",
+      "evaluation": 1
+    },
+    "3": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id < string ]",
+      "evaluation": 1
+    },
+    "4": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name = number ]",
+      "evaluation": 1
+    },
+    "5": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name = string ]",
+      "evaluation": 1
+    },
+    "6": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name < number ]",
+      "evaluation": 1
+    },
+    "7": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ first_name < string ]",
+      "evaluation": 1
+    },
+    "8": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name = number ]",
+      "evaluation": 1
+    },
+    "9": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name = string ]",
+      "evaluation": 1
+    },
+    "10": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name < number ]",
+      "evaluation": 1
+    },
+    "11": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ last_name < string ]",
+      "evaluation": 1
+    },
+    "12": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age = number ]",
+      "evaluation": 1
+    },
+    "13": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age = string ]",
+      "evaluation": 1
+    },
+    "14": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age < number ]",
+      "evaluation": 1
+    },
+    "15": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ age < string ]",
+      "evaluation": 1
+    },
+    "16": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country = number ]",
+      "evaluation": 1
+    },
+    "17": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country = string ]",
+      "evaluation": 1
+    },
+    "18": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country < number ]",
+      "evaluation": 1
+    },
+    "19": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ country < string ]",
+      "evaluation": 1
+    },
+    "20": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number = number ]",
+      "evaluation": 1
+    },
+    "21": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number = string ]",
+      "evaluation": 1
+    },
+    "22": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number < number ]",
+      "evaluation": 1
+    },
+    "23": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ number < string ]",
+      "evaluation": 1
+    },
+    "24": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string = number ]",
+      "evaluation": 1
+    },
+    "25": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string = string ]",
+      "evaluation": 1
+    },
+    "26": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string < number ]",
+      "evaluation": 1
+    },
+    "27": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ string < string ]",
+      "evaluation": 1
+    },
+    "28": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id = number ]",
+      "evaluation": 1
+    },
+    "29": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id = string ]",
+      "evaluation": 1
+    },
+    "30": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id < number ]",
+      "evaluation": 1
+    },
+    "31": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & customer_id < string ]",
+      "evaluation": 1
+    },
+    "32": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name = number ]",
+      "evaluation": 1
+    },
+    "33": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name = string ]",
+      "evaluation": 1
+    },
+    "34": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name < number ]",
+      "evaluation": 1
+    },
+    "35": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & first_name < string ]",
+      "evaluation": 1
+    },
+    "36": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name = number ]",
+      "evaluation": 1
+    },
+    "37": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name = string ]",
+      "evaluation": 1
+    },
+    "38": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name < number ]",
+      "evaluation": 1
+    },
+    "39": {
+      "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number & last_name < string ]",
+      "evaluation": 1
+    }
+  }
+]

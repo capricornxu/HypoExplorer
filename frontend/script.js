@@ -25,7 +25,7 @@ function sendGrammarCallback(responseText) {
     console.log("Data creation response received!");
     dataDiv = document.getElementById('test');
     // Set current data text
-    sentences = JSON.parse(responseText)
+    sentences = JSON.parse(responseText)[1]
     let text = "<table border='1'>"
     for (let x in sentences) {
         text += "<tr><td>" + sentences[x].sentence + "</td></tr>";

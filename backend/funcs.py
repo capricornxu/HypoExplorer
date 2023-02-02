@@ -52,6 +52,7 @@ def parser(
     t = perf_counter()
     chart = earley.chart_parse(tokens)
     parses = list(chart.parses(grammar.start()))
+    
     t = perf_counter() - t
 
     # Print results.
@@ -64,7 +65,8 @@ def parser(
         print("Nr trees:", len(parses))
     if print_times:
         print("Time:", t)
-        
+    
+    # parses = chart.parses(grammar.start())
     return parses
 
 
@@ -91,10 +93,14 @@ def sentence_to_json(
     filename
 ):
     with open(filename, "w") as file:
-        json.dump(data, file)
+        json.dump(data, file, indent = 2)
 
 
 ### Find deterministic tree
+def tree2dict(tree):
+    return {tree.label(): [tree2dict(t)  if isinstance(t, nltk.Tree) else t
+                        for t in tree]}
+
 def findDeterministicTree(
     grammar
 ):
@@ -137,7 +143,8 @@ def findDeterministicTree(
     for sentence in generate(new_grammar):
         deterministic_sent = ' '.join(sentence)
 
-    deterministic_tree = parser(sent = deterministic_sent, grammar  = new_grammar)[0]
-    deterministic_tree.pretty_print()
+    deterministic_tree = parser(sent = deterministic_sent, grammar  = new_grammar)
 
-    return deterministic_tree
+    tree_dict = tree2dict(deterministic_tree[0])
+
+    return tree_dict

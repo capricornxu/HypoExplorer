@@ -21,28 +21,15 @@ def users():
         received_data = request.get_json()
         hypo_string = received_data
         grammar = CFG.fromstring(hypo_string)
+        tree_dict = findDeterministicTree(grammar)
         sent_dict = Iterator(grammar, 40)
-        sentence_to_json(sent_dict, "sentence.json")
 
-        return flask.Response(response=json.dumps(sent_dict), status=201)
+        dict_list = [tree_dict, sent_dict]
+        sentence_to_json(dict_list, "sentence.json")
 
-hypo_string = """
-    root -> hypo
-    hypo -> expr '[' pred ']' op expr '[' pred ']'
-    expr -> func '(' var ')' | var
-    var -> attr | const
-    pred -> var op const | pred '&' pred | 
-    op -> '=' | '<'
-    attr -> 'customer_id' | 'first_name' | 'last_name' | 'age' | 'country'
-    const -> 'number' | 'string'
-    func -> 'AVG' | 'MAX' | 'MIN' | 'COUNT'
-    """
+        return flask.Response(response=json.dumps(dict_list, indent = 2), status=201)
 
 if __name__ == "__main__":
-    grammar = CFG.fromstring(hypo_string)
-    tree = findDeterministicTree(grammar)
-    print("returned tree:")
-    print(tree)
     app.debug = True
     app.run("localhost", 6969)
 
