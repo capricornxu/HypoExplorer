@@ -1,7 +1,3 @@
-from flask import Flask, request
-import flask
-import json
-from flask_cors import CORS
 from funcs import *
 
 app = Flask(__name__)
@@ -23,15 +19,30 @@ def users():
     
     if request.method == "POST":
         received_data = request.get_json()
-        # process input grammar
         hypo_string = received_data
         grammar = CFG.fromstring(hypo_string)
-        sent_dict = Iterator(grammar, 10)
+        sent_dict = Iterator(grammar, 40)
         sentence_to_json(sent_dict, "sentence.json")
 
         return flask.Response(response=json.dumps(sent_dict), status=201)
 
+hypo_string = """
+    root -> hypo
+    hypo -> expr '[' pred ']' op expr '[' pred ']'
+    expr -> func '(' var ')' | var
+    var -> attr | const
+    pred -> var op const | pred '&' pred | 
+    op -> '=' | '<'
+    attr -> 'customer_id' | 'first_name' | 'last_name' | 'age' | 'country'
+    const -> 'number' | 'string'
+    func -> 'AVG' | 'MAX' | 'MIN' | 'COUNT'
+    """
+
 if __name__ == "__main__":
+    grammar = CFG.fromstring(hypo_string)
+    tree = findDeterministicTree(grammar)
+    print("returned tree:")
+    print(tree)
     app.debug = True
     app.run("localhost", 6969)
 

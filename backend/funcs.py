@@ -1,18 +1,19 @@
-### import libraries
-import nltk
-from nltk.parse.generate import generate, demo_grammar
-from nltk import CFG
-from nltk.parse import ShiftReduceParser
+### import modules
 import sys
 import time
-from nltk.parse.chart import demo_grammar
-from nltk.parse.earleychart import EarleyChartParser, perf_counter
 import re
 import sqlite3
-import csv
 import pandas as pd
 import os
 import json
+import nltk
+from nltk.parse.generate import generate, demo_grammar
+from nltk import CFG
+from nltk.parse.chart import demo_grammar
+from nltk.parse.earleychart import EarleyChartParser, perf_counter
+import flask
+from flask import Flask, request
+from flask_cors import CORS
 
 ### Hypothesis Parser
 def parser(
@@ -64,7 +65,7 @@ def parser(
     if print_times:
         print("Time:", t)
         
-    return parses[0][0]
+    return parses
 
 
 ### Hypothesis Iterator
@@ -91,3 +92,52 @@ def sentence_to_json(
 ):
     with open(filename, "w") as file:
         json.dump(data, file)
+
+
+### Find deterministic tree
+def findDeterministicTree(
+    grammar
+):
+    # get lhs list of the grammar
+    productions = grammar.productions()
+    lhs_list = [prod.lhs() for prod in productions]
+
+    # get the new lhs list of the deterministic tree
+    new_lhs_list = []
+
+    for lhs in lhs_list:
+        if lhs_list.count(lhs) == 1:
+            new_lhs_list.append(str(lhs))
+
+    # join lhs in new_lhs_list with its rhs
+    new_production_dict = {}
+    for prod in productions:
+        if(str(prod.lhs()) in new_lhs_list):
+            rhs_list = []
+            for rhs in prod.rhs():
+                rhs_list.append(str(rhs))
+            new_production_dict.update({str(prod.lhs()):rhs_list})
+
+    # create new hypo_string for deterministic tree
+    hypo_string = ""
+    for lhs, rhs_list in new_production_dict.items():
+        curr_string = lhs + " -> "
+        for rhs in rhs_list:
+            if not rhs in new_lhs_list:
+                curr_string = curr_string + " " + "'" + rhs + "'"
+            else:
+                curr_string = curr_string + " " + rhs
+        hypo_string = hypo_string + curr_string + "\n"
+
+
+    # create grammar from hypo_string
+    new_grammar = CFG.fromstring(hypo_string)
+
+    # get deterministic tree
+    for sentence in generate(new_grammar):
+        deterministic_sent = ' '.join(sentence)
+
+    deterministic_tree = parser(sent = deterministic_sent, grammar  = new_grammar)[0]
+    deterministic_tree.pretty_print()
+
+    return deterministic_tree
