@@ -88,7 +88,7 @@ def Iterator(
     return sent_dict
 
 ### Write data to JSON file
-def sentence_to_json(
+def data_to_json(
     data,
     filename
 ):
@@ -103,11 +103,6 @@ def tree_to_dict(tree):
                 'subtrees': [tree_to_dict(child) for child in tree]}
     else:
         return  {'root': tree, 'subtrees': []}
-
-# def tree_to_dict(tree):
-#     return {'root': tree.label(), 
-#             'subtrees': [tree_to_dict(child) if isinstance(child, nltk.Tree) else child
-#                         for child in tree]}
 
 def findDeterministicTree(
     grammar
@@ -155,4 +150,4 @@ def findDeterministicTree(
 
     tree_dict = tree_to_dict(deterministic_tree[0])
 
-    return tree_dict
+    return deterministic_sent, tree_dict

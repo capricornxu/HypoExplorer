@@ -70,12 +70,16 @@ function sendGrammarCallback(responseText) {
     dataDiv.innerHTML = text;
 
     // show parser tree
-    tree = response_data[0]
+    tree = response_data[0][1]
     console.log(tree)
     $('#tree').empty();
     $('#tree').append(displayTree(tree) + '</ul></div></br>');
     displayTree(tree)
     console.log("tree displayed!")
+
+    // update sentence
+    deterministic_sent = response_data[0][0]
+    document.getElementById('sentence').value = deterministic_sent
 }
 
 // main entrance here

@@ -25,7 +25,7 @@ def users():
         sent_dict = Iterator(grammar, 40)
 
         dict_list = [tree_dict, sent_dict]
-        sentence_to_json(dict_list, "sentence.json")
+        data_to_json(dict_list, "sentence.json")
 
         return flask.Response(response=json.dumps(dict_list, indent = 2), status=201)
 

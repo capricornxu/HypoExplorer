@@ -1,50 +1,53 @@
 [
-  {
-    "root": "root",
-    "subtrees": [
-      {
-        "root": "hypo",
-        "subtrees": [
-          {
-            "root": "expr",
-            "subtrees": []
-          },
-          {
-            "root": "[",
-            "subtrees": []
-          },
-          {
-            "root": "pred",
-            "subtrees": []
-          },
-          {
-            "root": "]",
-            "subtrees": []
-          },
-          {
-            "root": "op",
-            "subtrees": []
-          },
-          {
-            "root": "expr",
-            "subtrees": []
-          },
-          {
-            "root": "[",
-            "subtrees": []
-          },
-          {
-            "root": "pred",
-            "subtrees": []
-          },
-          {
-            "root": "]",
-            "subtrees": []
-          }
-        ]
-      }
-    ]
-  },
+  [
+    "expr [ pred ] op expr [ pred ]",
+    {
+      "root": "root",
+      "subtrees": [
+        {
+          "root": "hypo",
+          "subtrees": [
+            {
+              "root": "expr",
+              "subtrees": []
+            },
+            {
+              "root": "[",
+              "subtrees": []
+            },
+            {
+              "root": "pred",
+              "subtrees": []
+            },
+            {
+              "root": "]",
+              "subtrees": []
+            },
+            {
+              "root": "op",
+              "subtrees": []
+            },
+            {
+              "root": "expr",
+              "subtrees": []
+            },
+            {
+              "root": "[",
+              "subtrees": []
+            },
+            {
+              "root": "pred",
+              "subtrees": []
+            },
+            {
+              "root": "]",
+              "subtrees": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   {
     "0": {
       "sentence": "AVG ( customer_id ) [ customer_id = number ] = AVG ( customer_id ) [ customer_id = number ]",

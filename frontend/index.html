@@ -19,8 +19,28 @@
         func -> 'AVG' | 'MAX' | 'MIN' | 'COUNT'
     </textarea>
 </body>
-
+<!-- <body>
+    <textarea name="Termial Symbol"  rows="20" cols="100" id="tgrm">
+        root -> hypo
+        hypo -> expr1 '[' pred1 ']' op expr2 '[' pred2 ']'
+        expr1 -> func '(' var ')' | var
+        expr2 -> var
+        pred1 -> var op const | pred '&' pred | 
+        pred2 -> var op const | pred '&' pred | 
+        var -> attr | const
+        pred -> var op const | pred '&' pred | 
+        op -> '=' | '<'
+        attr -> 'customer_id' | 'first_name' | 'last_name' | 'age' | 'country'
+        const -> 'number' | 'string'
+        func -> 'AVG' | 'MAX' | 'MIN' | 'COUNT'
+    </textarea>
+</body> -->
 <button class="button" role="button" id="send">Send</button>
+
+<textarea cols="100" id="sentence">
+</textarea>
+<button class="button" role="button" id="adjust">Adjust</button>
+
 <div id="tree"></div>
 <div id="hypo_table"></div>
 
