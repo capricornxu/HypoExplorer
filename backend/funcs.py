@@ -73,14 +73,15 @@ def parser(
 ### Hypothesis Iterator
 def Iterator(
     grammar,
-    num = 10
+    num = None
 ):
     sent_dict = {}
     index = 0
     for sentence in generate(grammar, n = num):
         sent = str(' '.join(sentence))
-        evaluation = 1
-        dictionary = {"sentence": sent,"evaluation":1}
+        # sentence evaluation
+        eval = evaluation(sent, grammar)
+        dictionary = {"sentence": sent,"evaluation":eval}
         sent_dict.update({index: dictionary})
         index = index + 1
         # print([str(' '.join(sentence))])
@@ -151,3 +152,96 @@ def findDeterministicTree(
     tree_dict = tree_to_dict(deterministic_tree[0])
 
     return deterministic_sent, tree_dict
+
+
+### evaluate sentence
+def evaluation(
+    sentence,
+    grammar
+):
+    ### Load database
+    database = "Customers.db"
+
+    sql_create_table = """CREATE TABLE IF NOT EXISTS Customers (
+                        customer_id integer PRIMARY KEY,
+                        first_name varchar[100],
+                        last_name varchar[100],
+                        age integer NOT NULL,
+                        country varchar[100]
+                    );"""
+
+    # create a database connection
+    os.remove("Customers.db")
+    conn = sqlite3.connect(database)
+
+    # create table
+    if conn is not None:
+        c = conn.cursor()
+        c.execute(sql_create_table)
+        df = pd.read_csv("Customers.csv")
+        df.to_sql('Customers', conn, if_exists='append', index=False)
+        conn.close()
+    
+    # transformation
+    sql_template = """
+    SELECT DISTINCT
+    ( SELECT expr1 FROM Customers WHERE pred1 )
+    =
+    ( SELECT expr2 FROM Customers WHERE pred2 )
+    FROM Customers
+    """
+
+    parse_tree = parser(sent = sentence, trace = 0, grammar = grammar)
+    sql = hypo_to_sql(sql_template, parse_tree[0][0])
+
+    ### Load database
+    sql_text = sql
+
+    # create a database connection
+    conn = sqlite3.connect(database)
+
+    # create table
+    if conn is not None:
+        c = conn.cursor()
+        c.execute(sql_text)
+        print("* Evaluation Result\n")
+        eval = c.fetchall()[0][0]
+        if eval == 1:
+            print(True)
+        else:
+            print(False)
+
+    return eval
+
+# transform hypothesis to sql text
+def hypo_to_sql(
+    sql_template, 
+    parse_tree
+):
+    expr_list = []
+    pred_list = []
+    op = '='
+
+    for subtree in parse_tree:
+        if not isinstance(subtree, str):
+            if subtree.label() == 'expr':
+                expr = ' '.join(subtree.leaves())
+                expr_list.append(expr)
+            if subtree.label() == 'pred':
+                if subtree.leaves() == []:
+                    pred = ' '.join(['true'])
+                else:
+                    pred = ' '.join(subtree.leaves())
+                pred_list.append(pred)
+            if subtree.label() == 'op':
+                op = subtree.leaves()
+
+    print("\n* SQL TEXT")
+    sql = sql_template.replace('expr1', expr_list[0])
+    sql = sql.replace('expr2', expr_list[1])
+    sql = sql.replace('pred1', pred_list[0])
+    sql = sql.replace('pred2', pred_list[1])
+    sql = sql.replace('op', op[0])
+    print(sql)
+    
+    return sql

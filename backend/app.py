@@ -22,7 +22,8 @@ def users():
         hypo_string = received_data
         grammar = CFG.fromstring(hypo_string)
         tree_dict = findDeterministicTree(grammar)
-        sent_dict = Iterator(grammar, 40)
+        sent_dict = Iterator(grammar, 400)
+        # print(sent_dict[0])
 
         dict_list = [tree_dict, sent_dict]
         data_to_json(dict_list, "sentence.json")
@@ -32,5 +33,4 @@ def users():
 if __name__ == "__main__":
     app.debug = True
     app.run("localhost", 6969)
-
     
