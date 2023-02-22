@@ -1648,6 +1648,2406 @@
     "399": {
       "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 5 < 'UAE' ]",
       "evaluation": 0
+    },
+    "400": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 1 ]",
+      "evaluation": null
+    },
+    "401": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 2 ]",
+      "evaluation": null
+    },
+    "402": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 3 ]",
+      "evaluation": null
+    },
+    "403": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 4 ]",
+      "evaluation": null
+    },
+    "404": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 5 ]",
+      "evaluation": null
+    },
+    "405": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 22 ]",
+      "evaluation": 0
+    },
+    "406": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 25 ]",
+      "evaluation": null
+    },
+    "407": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 28 ]",
+      "evaluation": null
+    },
+    "408": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 31 ]",
+      "evaluation": null
+    },
+    "409": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'Robert' ]",
+      "evaluation": null
+    },
+    "410": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'John' ]",
+      "evaluation": null
+    },
+    "411": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'David' ]",
+      "evaluation": null
+    },
+    "412": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'Betty' ]",
+      "evaluation": null
+    },
+    "413": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'Doe' ]",
+      "evaluation": null
+    },
+    "414": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'Luna' ]",
+      "evaluation": null
+    },
+    "415": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'Robinson' ]",
+      "evaluation": null
+    },
+    "416": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "417": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'USA' ]",
+      "evaluation": null
+    },
+    "418": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'UK' ]",
+      "evaluation": null
+    },
+    "419": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 = 'UAE' ]",
+      "evaluation": null
+    },
+    "420": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 1 ]",
+      "evaluation": null
+    },
+    "421": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 2 ]",
+      "evaluation": null
+    },
+    "422": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 3 ]",
+      "evaluation": null
+    },
+    "423": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 4 ]",
+      "evaluation": null
+    },
+    "424": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 5 ]",
+      "evaluation": null
+    },
+    "425": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 22 ]",
+      "evaluation": null
+    },
+    "426": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 25 ]",
+      "evaluation": 0
+    },
+    "427": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 28 ]",
+      "evaluation": 0
+    },
+    "428": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 31 ]",
+      "evaluation": 0
+    },
+    "429": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'Robert' ]",
+      "evaluation": 0
+    },
+    "430": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'John' ]",
+      "evaluation": 0
+    },
+    "431": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'David' ]",
+      "evaluation": 0
+    },
+    "432": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'Betty' ]",
+      "evaluation": 0
+    },
+    "433": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'Doe' ]",
+      "evaluation": 0
+    },
+    "434": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'Luna' ]",
+      "evaluation": 0
+    },
+    "435": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "436": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "437": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'USA' ]",
+      "evaluation": 0
+    },
+    "438": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'UK' ]",
+      "evaluation": 0
+    },
+    "439": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 22 < 'UAE' ]",
+      "evaluation": 0
+    },
+    "440": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 1 ]",
+      "evaluation": null
+    },
+    "441": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 2 ]",
+      "evaluation": null
+    },
+    "442": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 3 ]",
+      "evaluation": null
+    },
+    "443": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 4 ]",
+      "evaluation": null
+    },
+    "444": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 5 ]",
+      "evaluation": null
+    },
+    "445": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 22 ]",
+      "evaluation": null
+    },
+    "446": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 25 ]",
+      "evaluation": 0
+    },
+    "447": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 28 ]",
+      "evaluation": null
+    },
+    "448": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 31 ]",
+      "evaluation": null
+    },
+    "449": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'Robert' ]",
+      "evaluation": null
+    },
+    "450": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'John' ]",
+      "evaluation": null
+    },
+    "451": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'David' ]",
+      "evaluation": null
+    },
+    "452": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'Betty' ]",
+      "evaluation": null
+    },
+    "453": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'Doe' ]",
+      "evaluation": null
+    },
+    "454": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'Luna' ]",
+      "evaluation": null
+    },
+    "455": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'Robinson' ]",
+      "evaluation": null
+    },
+    "456": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "457": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'USA' ]",
+      "evaluation": null
+    },
+    "458": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'UK' ]",
+      "evaluation": null
+    },
+    "459": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 = 'UAE' ]",
+      "evaluation": null
+    },
+    "460": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 1 ]",
+      "evaluation": null
+    },
+    "461": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 2 ]",
+      "evaluation": null
+    },
+    "462": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 3 ]",
+      "evaluation": null
+    },
+    "463": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 4 ]",
+      "evaluation": null
+    },
+    "464": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 5 ]",
+      "evaluation": null
+    },
+    "465": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 22 ]",
+      "evaluation": null
+    },
+    "466": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 25 ]",
+      "evaluation": null
+    },
+    "467": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 28 ]",
+      "evaluation": 0
+    },
+    "468": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 31 ]",
+      "evaluation": 0
+    },
+    "469": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'Robert' ]",
+      "evaluation": 0
+    },
+    "470": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'John' ]",
+      "evaluation": 0
+    },
+    "471": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'David' ]",
+      "evaluation": 0
+    },
+    "472": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'Betty' ]",
+      "evaluation": 0
+    },
+    "473": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'Doe' ]",
+      "evaluation": 0
+    },
+    "474": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'Luna' ]",
+      "evaluation": 0
+    },
+    "475": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "476": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "477": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'USA' ]",
+      "evaluation": 0
+    },
+    "478": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'UK' ]",
+      "evaluation": 0
+    },
+    "479": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 25 < 'UAE' ]",
+      "evaluation": 0
+    },
+    "480": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 1 ]",
+      "evaluation": null
+    },
+    "481": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 2 ]",
+      "evaluation": null
+    },
+    "482": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 3 ]",
+      "evaluation": null
+    },
+    "483": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 4 ]",
+      "evaluation": null
+    },
+    "484": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 5 ]",
+      "evaluation": null
+    },
+    "485": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 22 ]",
+      "evaluation": null
+    },
+    "486": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 25 ]",
+      "evaluation": null
+    },
+    "487": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 28 ]",
+      "evaluation": 0
+    },
+    "488": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 31 ]",
+      "evaluation": null
+    },
+    "489": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'Robert' ]",
+      "evaluation": null
+    },
+    "490": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'John' ]",
+      "evaluation": null
+    },
+    "491": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'David' ]",
+      "evaluation": null
+    },
+    "492": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'Betty' ]",
+      "evaluation": null
+    },
+    "493": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'Doe' ]",
+      "evaluation": null
+    },
+    "494": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'Luna' ]",
+      "evaluation": null
+    },
+    "495": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'Robinson' ]",
+      "evaluation": null
+    },
+    "496": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "497": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'USA' ]",
+      "evaluation": null
+    },
+    "498": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'UK' ]",
+      "evaluation": null
+    },
+    "499": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 = 'UAE' ]",
+      "evaluation": null
+    },
+    "500": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 1 ]",
+      "evaluation": null
+    },
+    "501": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 2 ]",
+      "evaluation": null
+    },
+    "502": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 3 ]",
+      "evaluation": null
+    },
+    "503": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 4 ]",
+      "evaluation": null
+    },
+    "504": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 5 ]",
+      "evaluation": null
+    },
+    "505": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 22 ]",
+      "evaluation": null
+    },
+    "506": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 25 ]",
+      "evaluation": null
+    },
+    "507": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 28 ]",
+      "evaluation": null
+    },
+    "508": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 31 ]",
+      "evaluation": 0
+    },
+    "509": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'Robert' ]",
+      "evaluation": 0
+    },
+    "510": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'John' ]",
+      "evaluation": 0
+    },
+    "511": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'David' ]",
+      "evaluation": 0
+    },
+    "512": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'Betty' ]",
+      "evaluation": 0
+    },
+    "513": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'Doe' ]",
+      "evaluation": 0
+    },
+    "514": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'Luna' ]",
+      "evaluation": 0
+    },
+    "515": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "516": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "517": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'USA' ]",
+      "evaluation": 0
+    },
+    "518": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'UK' ]",
+      "evaluation": 0
+    },
+    "519": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 28 < 'UAE' ]",
+      "evaluation": 0
+    },
+    "520": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 1 ]",
+      "evaluation": null
+    },
+    "521": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 2 ]",
+      "evaluation": null
+    },
+    "522": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 3 ]",
+      "evaluation": null
+    },
+    "523": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 4 ]",
+      "evaluation": null
+    },
+    "524": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 5 ]",
+      "evaluation": null
+    },
+    "525": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 22 ]",
+      "evaluation": null
+    },
+    "526": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 25 ]",
+      "evaluation": null
+    },
+    "527": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 28 ]",
+      "evaluation": null
+    },
+    "528": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 31 ]",
+      "evaluation": 0
+    },
+    "529": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'Robert' ]",
+      "evaluation": null
+    },
+    "530": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'John' ]",
+      "evaluation": null
+    },
+    "531": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'David' ]",
+      "evaluation": null
+    },
+    "532": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'Betty' ]",
+      "evaluation": null
+    },
+    "533": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'Doe' ]",
+      "evaluation": null
+    },
+    "534": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'Luna' ]",
+      "evaluation": null
+    },
+    "535": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'Robinson' ]",
+      "evaluation": null
+    },
+    "536": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "537": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'USA' ]",
+      "evaluation": null
+    },
+    "538": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'UK' ]",
+      "evaluation": null
+    },
+    "539": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 = 'UAE' ]",
+      "evaluation": null
+    },
+    "540": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 1 ]",
+      "evaluation": null
+    },
+    "541": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 2 ]",
+      "evaluation": null
+    },
+    "542": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 3 ]",
+      "evaluation": null
+    },
+    "543": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 4 ]",
+      "evaluation": null
+    },
+    "544": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 5 ]",
+      "evaluation": null
+    },
+    "545": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 22 ]",
+      "evaluation": null
+    },
+    "546": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 25 ]",
+      "evaluation": null
+    },
+    "547": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 28 ]",
+      "evaluation": null
+    },
+    "548": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 31 ]",
+      "evaluation": null
+    },
+    "549": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'Robert' ]",
+      "evaluation": 0
+    },
+    "550": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'John' ]",
+      "evaluation": 0
+    },
+    "551": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'David' ]",
+      "evaluation": 0
+    },
+    "552": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'Betty' ]",
+      "evaluation": 0
+    },
+    "553": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'Doe' ]",
+      "evaluation": 0
+    },
+    "554": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'Luna' ]",
+      "evaluation": 0
+    },
+    "555": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "556": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "557": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'USA' ]",
+      "evaluation": 0
+    },
+    "558": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'UK' ]",
+      "evaluation": 0
+    },
+    "559": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 31 < 'UAE' ]",
+      "evaluation": 0
+    },
+    "560": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 1 ]",
+      "evaluation": null
+    },
+    "561": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 2 ]",
+      "evaluation": null
+    },
+    "562": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 3 ]",
+      "evaluation": null
+    },
+    "563": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 4 ]",
+      "evaluation": null
+    },
+    "564": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 5 ]",
+      "evaluation": null
+    },
+    "565": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 22 ]",
+      "evaluation": null
+    },
+    "566": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 25 ]",
+      "evaluation": null
+    },
+    "567": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 28 ]",
+      "evaluation": null
+    },
+    "568": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 31 ]",
+      "evaluation": null
+    },
+    "569": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'Robert' ]",
+      "evaluation": 0
+    },
+    "570": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'John' ]",
+      "evaluation": null
+    },
+    "571": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'David' ]",
+      "evaluation": null
+    },
+    "572": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'Betty' ]",
+      "evaluation": null
+    },
+    "573": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'Doe' ]",
+      "evaluation": null
+    },
+    "574": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'Luna' ]",
+      "evaluation": null
+    },
+    "575": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "576": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "577": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'USA' ]",
+      "evaluation": null
+    },
+    "578": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'UK' ]",
+      "evaluation": null
+    },
+    "579": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' = 'UAE' ]",
+      "evaluation": null
+    },
+    "580": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 1 ]",
+      "evaluation": null
+    },
+    "581": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 2 ]",
+      "evaluation": null
+    },
+    "582": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 3 ]",
+      "evaluation": null
+    },
+    "583": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 4 ]",
+      "evaluation": null
+    },
+    "584": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 5 ]",
+      "evaluation": null
+    },
+    "585": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 22 ]",
+      "evaluation": null
+    },
+    "586": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 25 ]",
+      "evaluation": null
+    },
+    "587": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 28 ]",
+      "evaluation": null
+    },
+    "588": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 31 ]",
+      "evaluation": null
+    },
+    "589": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'Robert' ]",
+      "evaluation": null
+    },
+    "590": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'John' ]",
+      "evaluation": null
+    },
+    "591": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'David' ]",
+      "evaluation": null
+    },
+    "592": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'Betty' ]",
+      "evaluation": null
+    },
+    "593": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'Doe' ]",
+      "evaluation": null
+    },
+    "594": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'Luna' ]",
+      "evaluation": null
+    },
+    "595": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "596": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "597": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'USA' ]",
+      "evaluation": 0
+    },
+    "598": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'UK' ]",
+      "evaluation": 0
+    },
+    "599": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robert' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "600": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 1 ]",
+      "evaluation": null
+    },
+    "601": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 2 ]",
+      "evaluation": null
+    },
+    "602": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 3 ]",
+      "evaluation": null
+    },
+    "603": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 4 ]",
+      "evaluation": null
+    },
+    "604": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 5 ]",
+      "evaluation": null
+    },
+    "605": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 22 ]",
+      "evaluation": null
+    },
+    "606": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 25 ]",
+      "evaluation": null
+    },
+    "607": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 28 ]",
+      "evaluation": null
+    },
+    "608": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 31 ]",
+      "evaluation": null
+    },
+    "609": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'Robert' ]",
+      "evaluation": null
+    },
+    "610": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'John' ]",
+      "evaluation": 0
+    },
+    "611": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'David' ]",
+      "evaluation": null
+    },
+    "612": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'Betty' ]",
+      "evaluation": null
+    },
+    "613": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'Doe' ]",
+      "evaluation": null
+    },
+    "614": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'Luna' ]",
+      "evaluation": null
+    },
+    "615": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "616": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "617": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'USA' ]",
+      "evaluation": null
+    },
+    "618": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'UK' ]",
+      "evaluation": null
+    },
+    "619": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' = 'UAE' ]",
+      "evaluation": null
+    },
+    "620": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 1 ]",
+      "evaluation": null
+    },
+    "621": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 2 ]",
+      "evaluation": null
+    },
+    "622": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 3 ]",
+      "evaluation": null
+    },
+    "623": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 4 ]",
+      "evaluation": null
+    },
+    "624": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 5 ]",
+      "evaluation": null
+    },
+    "625": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 22 ]",
+      "evaluation": null
+    },
+    "626": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 25 ]",
+      "evaluation": null
+    },
+    "627": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 28 ]",
+      "evaluation": null
+    },
+    "628": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 31 ]",
+      "evaluation": null
+    },
+    "629": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'Robert' ]",
+      "evaluation": 0
+    },
+    "630": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'John' ]",
+      "evaluation": null
+    },
+    "631": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'David' ]",
+      "evaluation": null
+    },
+    "632": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'Betty' ]",
+      "evaluation": null
+    },
+    "633": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'Doe' ]",
+      "evaluation": null
+    },
+    "634": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'Luna' ]",
+      "evaluation": 0
+    },
+    "635": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "636": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "637": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'USA' ]",
+      "evaluation": 0
+    },
+    "638": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'UK' ]",
+      "evaluation": 0
+    },
+    "639": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'John' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "640": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 1 ]",
+      "evaluation": null
+    },
+    "641": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 2 ]",
+      "evaluation": null
+    },
+    "642": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 3 ]",
+      "evaluation": null
+    },
+    "643": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 4 ]",
+      "evaluation": null
+    },
+    "644": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 5 ]",
+      "evaluation": null
+    },
+    "645": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 22 ]",
+      "evaluation": null
+    },
+    "646": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 25 ]",
+      "evaluation": null
+    },
+    "647": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 28 ]",
+      "evaluation": null
+    },
+    "648": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 31 ]",
+      "evaluation": null
+    },
+    "649": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'Robert' ]",
+      "evaluation": null
+    },
+    "650": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'John' ]",
+      "evaluation": null
+    },
+    "651": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'David' ]",
+      "evaluation": 0
+    },
+    "652": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'Betty' ]",
+      "evaluation": null
+    },
+    "653": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'Doe' ]",
+      "evaluation": null
+    },
+    "654": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'Luna' ]",
+      "evaluation": null
+    },
+    "655": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "656": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "657": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'USA' ]",
+      "evaluation": null
+    },
+    "658": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'UK' ]",
+      "evaluation": null
+    },
+    "659": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' = 'UAE' ]",
+      "evaluation": null
+    },
+    "660": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 1 ]",
+      "evaluation": null
+    },
+    "661": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 2 ]",
+      "evaluation": null
+    },
+    "662": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 3 ]",
+      "evaluation": null
+    },
+    "663": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 4 ]",
+      "evaluation": null
+    },
+    "664": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 5 ]",
+      "evaluation": null
+    },
+    "665": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 22 ]",
+      "evaluation": null
+    },
+    "666": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 25 ]",
+      "evaluation": null
+    },
+    "667": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 28 ]",
+      "evaluation": null
+    },
+    "668": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 31 ]",
+      "evaluation": null
+    },
+    "669": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'Robert' ]",
+      "evaluation": 0
+    },
+    "670": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'John' ]",
+      "evaluation": 0
+    },
+    "671": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'David' ]",
+      "evaluation": null
+    },
+    "672": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'Betty' ]",
+      "evaluation": null
+    },
+    "673": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'Doe' ]",
+      "evaluation": 0
+    },
+    "674": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'Luna' ]",
+      "evaluation": 0
+    },
+    "675": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "676": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "677": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'USA' ]",
+      "evaluation": 0
+    },
+    "678": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'UK' ]",
+      "evaluation": 0
+    },
+    "679": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'David' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "680": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 1 ]",
+      "evaluation": null
+    },
+    "681": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 2 ]",
+      "evaluation": null
+    },
+    "682": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 3 ]",
+      "evaluation": null
+    },
+    "683": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 4 ]",
+      "evaluation": null
+    },
+    "684": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 5 ]",
+      "evaluation": null
+    },
+    "685": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 22 ]",
+      "evaluation": null
+    },
+    "686": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 25 ]",
+      "evaluation": null
+    },
+    "687": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 28 ]",
+      "evaluation": null
+    },
+    "688": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 31 ]",
+      "evaluation": null
+    },
+    "689": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'Robert' ]",
+      "evaluation": null
+    },
+    "690": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'John' ]",
+      "evaluation": null
+    },
+    "691": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'David' ]",
+      "evaluation": null
+    },
+    "692": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'Betty' ]",
+      "evaluation": 0
+    },
+    "693": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'Doe' ]",
+      "evaluation": null
+    },
+    "694": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'Luna' ]",
+      "evaluation": null
+    },
+    "695": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "696": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "697": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'USA' ]",
+      "evaluation": null
+    },
+    "698": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'UK' ]",
+      "evaluation": null
+    },
+    "699": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' = 'UAE' ]",
+      "evaluation": null
+    },
+    "700": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 1 ]",
+      "evaluation": null
+    },
+    "701": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 2 ]",
+      "evaluation": null
+    },
+    "702": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 3 ]",
+      "evaluation": null
+    },
+    "703": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 4 ]",
+      "evaluation": null
+    },
+    "704": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 5 ]",
+      "evaluation": null
+    },
+    "705": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 22 ]",
+      "evaluation": null
+    },
+    "706": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 25 ]",
+      "evaluation": null
+    },
+    "707": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 28 ]",
+      "evaluation": null
+    },
+    "708": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 31 ]",
+      "evaluation": null
+    },
+    "709": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'Robert' ]",
+      "evaluation": 0
+    },
+    "710": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'John' ]",
+      "evaluation": 0
+    },
+    "711": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'David' ]",
+      "evaluation": 0
+    },
+    "712": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'Betty' ]",
+      "evaluation": null
+    },
+    "713": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'Doe' ]",
+      "evaluation": 0
+    },
+    "714": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'Luna' ]",
+      "evaluation": 0
+    },
+    "715": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "716": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "717": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'USA' ]",
+      "evaluation": 0
+    },
+    "718": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'UK' ]",
+      "evaluation": 0
+    },
+    "719": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Betty' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "720": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 1 ]",
+      "evaluation": null
+    },
+    "721": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 2 ]",
+      "evaluation": null
+    },
+    "722": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 3 ]",
+      "evaluation": null
+    },
+    "723": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 4 ]",
+      "evaluation": null
+    },
+    "724": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 5 ]",
+      "evaluation": null
+    },
+    "725": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 22 ]",
+      "evaluation": null
+    },
+    "726": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 25 ]",
+      "evaluation": null
+    },
+    "727": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 28 ]",
+      "evaluation": null
+    },
+    "728": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 31 ]",
+      "evaluation": null
+    },
+    "729": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'Robert' ]",
+      "evaluation": null
+    },
+    "730": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'John' ]",
+      "evaluation": null
+    },
+    "731": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'David' ]",
+      "evaluation": null
+    },
+    "732": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'Betty' ]",
+      "evaluation": null
+    },
+    "733": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'Doe' ]",
+      "evaluation": 0
+    },
+    "734": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'Luna' ]",
+      "evaluation": null
+    },
+    "735": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "736": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "737": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'USA' ]",
+      "evaluation": null
+    },
+    "738": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'UK' ]",
+      "evaluation": null
+    },
+    "739": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' = 'UAE' ]",
+      "evaluation": null
+    },
+    "740": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 1 ]",
+      "evaluation": null
+    },
+    "741": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 2 ]",
+      "evaluation": null
+    },
+    "742": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 3 ]",
+      "evaluation": null
+    },
+    "743": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 4 ]",
+      "evaluation": null
+    },
+    "744": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 5 ]",
+      "evaluation": null
+    },
+    "745": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 22 ]",
+      "evaluation": null
+    },
+    "746": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 25 ]",
+      "evaluation": null
+    },
+    "747": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 28 ]",
+      "evaluation": null
+    },
+    "748": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 31 ]",
+      "evaluation": null
+    },
+    "749": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'Robert' ]",
+      "evaluation": 0
+    },
+    "750": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'John' ]",
+      "evaluation": 0
+    },
+    "751": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'David' ]",
+      "evaluation": null
+    },
+    "752": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'Betty' ]",
+      "evaluation": null
+    },
+    "753": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'Doe' ]",
+      "evaluation": null
+    },
+    "754": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'Luna' ]",
+      "evaluation": 0
+    },
+    "755": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "756": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "757": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'USA' ]",
+      "evaluation": 0
+    },
+    "758": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'UK' ]",
+      "evaluation": 0
+    },
+    "759": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Doe' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "760": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 1 ]",
+      "evaluation": null
+    },
+    "761": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 2 ]",
+      "evaluation": null
+    },
+    "762": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 3 ]",
+      "evaluation": null
+    },
+    "763": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 4 ]",
+      "evaluation": null
+    },
+    "764": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 5 ]",
+      "evaluation": null
+    },
+    "765": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 22 ]",
+      "evaluation": null
+    },
+    "766": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 25 ]",
+      "evaluation": null
+    },
+    "767": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 28 ]",
+      "evaluation": null
+    },
+    "768": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 31 ]",
+      "evaluation": null
+    },
+    "769": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'Robert' ]",
+      "evaluation": null
+    },
+    "770": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'John' ]",
+      "evaluation": null
+    },
+    "771": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'David' ]",
+      "evaluation": null
+    },
+    "772": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'Betty' ]",
+      "evaluation": null
+    },
+    "773": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'Doe' ]",
+      "evaluation": null
+    },
+    "774": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'Luna' ]",
+      "evaluation": 0
+    },
+    "775": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "776": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "777": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'USA' ]",
+      "evaluation": null
+    },
+    "778": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'UK' ]",
+      "evaluation": null
+    },
+    "779": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' = 'UAE' ]",
+      "evaluation": null
+    },
+    "780": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 1 ]",
+      "evaluation": null
+    },
+    "781": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 2 ]",
+      "evaluation": null
+    },
+    "782": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 3 ]",
+      "evaluation": null
+    },
+    "783": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 4 ]",
+      "evaluation": null
+    },
+    "784": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 5 ]",
+      "evaluation": null
+    },
+    "785": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 22 ]",
+      "evaluation": null
+    },
+    "786": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 25 ]",
+      "evaluation": null
+    },
+    "787": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 28 ]",
+      "evaluation": null
+    },
+    "788": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 31 ]",
+      "evaluation": null
+    },
+    "789": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'Robert' ]",
+      "evaluation": 0
+    },
+    "790": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'John' ]",
+      "evaluation": null
+    },
+    "791": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'David' ]",
+      "evaluation": null
+    },
+    "792": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'Betty' ]",
+      "evaluation": null
+    },
+    "793": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'Doe' ]",
+      "evaluation": null
+    },
+    "794": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'Luna' ]",
+      "evaluation": null
+    },
+    "795": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "796": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "797": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'USA' ]",
+      "evaluation": 0
+    },
+    "798": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'UK' ]",
+      "evaluation": 0
+    },
+    "799": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Luna' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "800": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 1 ]",
+      "evaluation": null
+    },
+    "801": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 2 ]",
+      "evaluation": null
+    },
+    "802": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 3 ]",
+      "evaluation": null
+    },
+    "803": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 4 ]",
+      "evaluation": null
+    },
+    "804": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 5 ]",
+      "evaluation": null
+    },
+    "805": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 22 ]",
+      "evaluation": null
+    },
+    "806": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 25 ]",
+      "evaluation": null
+    },
+    "807": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 28 ]",
+      "evaluation": null
+    },
+    "808": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 31 ]",
+      "evaluation": null
+    },
+    "809": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'Robert' ]",
+      "evaluation": null
+    },
+    "810": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'John' ]",
+      "evaluation": null
+    },
+    "811": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'David' ]",
+      "evaluation": null
+    },
+    "812": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'Betty' ]",
+      "evaluation": null
+    },
+    "813": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'Doe' ]",
+      "evaluation": null
+    },
+    "814": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'Luna' ]",
+      "evaluation": null
+    },
+    "815": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'Robinson' ]",
+      "evaluation": 0
+    },
+    "816": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "817": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'USA' ]",
+      "evaluation": null
+    },
+    "818": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'UK' ]",
+      "evaluation": null
+    },
+    "819": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' = 'UAE' ]",
+      "evaluation": null
+    },
+    "820": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 1 ]",
+      "evaluation": null
+    },
+    "821": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 2 ]",
+      "evaluation": null
+    },
+    "822": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 3 ]",
+      "evaluation": null
+    },
+    "823": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 4 ]",
+      "evaluation": null
+    },
+    "824": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 5 ]",
+      "evaluation": null
+    },
+    "825": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 22 ]",
+      "evaluation": null
+    },
+    "826": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 25 ]",
+      "evaluation": null
+    },
+    "827": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 28 ]",
+      "evaluation": null
+    },
+    "828": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 31 ]",
+      "evaluation": null
+    },
+    "829": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'Robert' ]",
+      "evaluation": null
+    },
+    "830": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'John' ]",
+      "evaluation": null
+    },
+    "831": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'David' ]",
+      "evaluation": null
+    },
+    "832": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'Betty' ]",
+      "evaluation": null
+    },
+    "833": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'Doe' ]",
+      "evaluation": null
+    },
+    "834": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'Luna' ]",
+      "evaluation": null
+    },
+    "835": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'Robinson' ]",
+      "evaluation": null
+    },
+    "836": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "837": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'USA' ]",
+      "evaluation": 0
+    },
+    "838": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'UK' ]",
+      "evaluation": 0
+    },
+    "839": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Robinson' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "840": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 1 ]",
+      "evaluation": null
+    },
+    "841": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 2 ]",
+      "evaluation": null
+    },
+    "842": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 3 ]",
+      "evaluation": null
+    },
+    "843": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 4 ]",
+      "evaluation": null
+    },
+    "844": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 5 ]",
+      "evaluation": null
+    },
+    "845": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 22 ]",
+      "evaluation": null
+    },
+    "846": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 25 ]",
+      "evaluation": null
+    },
+    "847": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 28 ]",
+      "evaluation": null
+    },
+    "848": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 31 ]",
+      "evaluation": null
+    },
+    "849": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'Robert' ]",
+      "evaluation": null
+    },
+    "850": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'John' ]",
+      "evaluation": null
+    },
+    "851": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'David' ]",
+      "evaluation": null
+    },
+    "852": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'Betty' ]",
+      "evaluation": null
+    },
+    "853": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'Doe' ]",
+      "evaluation": null
+    },
+    "854": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'Luna' ]",
+      "evaluation": null
+    },
+    "855": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "856": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'Reinhartd' ]",
+      "evaluation": 0
+    },
+    "857": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'USA' ]",
+      "evaluation": null
+    },
+    "858": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'UK' ]",
+      "evaluation": null
+    },
+    "859": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' = 'UAE' ]",
+      "evaluation": null
+    },
+    "860": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 1 ]",
+      "evaluation": null
+    },
+    "861": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 2 ]",
+      "evaluation": null
+    },
+    "862": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 3 ]",
+      "evaluation": null
+    },
+    "863": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 4 ]",
+      "evaluation": null
+    },
+    "864": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 5 ]",
+      "evaluation": null
+    },
+    "865": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 22 ]",
+      "evaluation": null
+    },
+    "866": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 25 ]",
+      "evaluation": null
+    },
+    "867": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 28 ]",
+      "evaluation": null
+    },
+    "868": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 31 ]",
+      "evaluation": null
+    },
+    "869": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'Robert' ]",
+      "evaluation": 0
+    },
+    "870": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'John' ]",
+      "evaluation": null
+    },
+    "871": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'David' ]",
+      "evaluation": null
+    },
+    "872": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'Betty' ]",
+      "evaluation": null
+    },
+    "873": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'Doe' ]",
+      "evaluation": null
+    },
+    "874": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'Luna' ]",
+      "evaluation": null
+    },
+    "875": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'Robinson' ]",
+      "evaluation": 0
+    },
+    "876": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "877": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'USA' ]",
+      "evaluation": 0
+    },
+    "878": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'UK' ]",
+      "evaluation": 0
+    },
+    "879": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'Reinhartd' < 'UAE' ]",
+      "evaluation": 0
+    },
+    "880": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 1 ]",
+      "evaluation": null
+    },
+    "881": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 2 ]",
+      "evaluation": null
+    },
+    "882": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 3 ]",
+      "evaluation": null
+    },
+    "883": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 4 ]",
+      "evaluation": null
+    },
+    "884": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 5 ]",
+      "evaluation": null
+    },
+    "885": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 22 ]",
+      "evaluation": null
+    },
+    "886": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 25 ]",
+      "evaluation": null
+    },
+    "887": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 28 ]",
+      "evaluation": null
+    },
+    "888": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 31 ]",
+      "evaluation": null
+    },
+    "889": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'Robert' ]",
+      "evaluation": null
+    },
+    "890": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'John' ]",
+      "evaluation": null
+    },
+    "891": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'David' ]",
+      "evaluation": null
+    },
+    "892": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'Betty' ]",
+      "evaluation": null
+    },
+    "893": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'Doe' ]",
+      "evaluation": null
+    },
+    "894": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'Luna' ]",
+      "evaluation": null
+    },
+    "895": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "896": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "897": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'USA' ]",
+      "evaluation": 0
+    },
+    "898": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'UK' ]",
+      "evaluation": null
+    },
+    "899": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' = 'UAE' ]",
+      "evaluation": null
+    },
+    "900": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 1 ]",
+      "evaluation": null
+    },
+    "901": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 2 ]",
+      "evaluation": null
+    },
+    "902": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 3 ]",
+      "evaluation": null
+    },
+    "903": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 4 ]",
+      "evaluation": null
+    },
+    "904": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 5 ]",
+      "evaluation": null
+    },
+    "905": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 22 ]",
+      "evaluation": null
+    },
+    "906": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 25 ]",
+      "evaluation": null
+    },
+    "907": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 28 ]",
+      "evaluation": null
+    },
+    "908": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 31 ]",
+      "evaluation": null
+    },
+    "909": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'Robert' ]",
+      "evaluation": null
+    },
+    "910": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'John' ]",
+      "evaluation": null
+    },
+    "911": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'David' ]",
+      "evaluation": null
+    },
+    "912": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'Betty' ]",
+      "evaluation": null
+    },
+    "913": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'Doe' ]",
+      "evaluation": null
+    },
+    "914": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'Luna' ]",
+      "evaluation": null
+    },
+    "915": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'Robinson' ]",
+      "evaluation": null
+    },
+    "916": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "917": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'USA' ]",
+      "evaluation": null
+    },
+    "918": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'UK' ]",
+      "evaluation": null
+    },
+    "919": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'USA' < 'UAE' ]",
+      "evaluation": null
+    },
+    "920": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 1 ]",
+      "evaluation": null
+    },
+    "921": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 2 ]",
+      "evaluation": null
+    },
+    "922": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 3 ]",
+      "evaluation": null
+    },
+    "923": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 4 ]",
+      "evaluation": null
+    },
+    "924": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 5 ]",
+      "evaluation": null
+    },
+    "925": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 22 ]",
+      "evaluation": null
+    },
+    "926": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 25 ]",
+      "evaluation": null
+    },
+    "927": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 28 ]",
+      "evaluation": null
+    },
+    "928": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 31 ]",
+      "evaluation": null
+    },
+    "929": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'Robert' ]",
+      "evaluation": null
+    },
+    "930": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'John' ]",
+      "evaluation": null
+    },
+    "931": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'David' ]",
+      "evaluation": null
+    },
+    "932": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'Betty' ]",
+      "evaluation": null
+    },
+    "933": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'Doe' ]",
+      "evaluation": null
+    },
+    "934": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'Luna' ]",
+      "evaluation": null
+    },
+    "935": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "936": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "937": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'USA' ]",
+      "evaluation": null
+    },
+    "938": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'UK' ]",
+      "evaluation": 0
+    },
+    "939": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' = 'UAE' ]",
+      "evaluation": null
+    },
+    "940": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 1 ]",
+      "evaluation": null
+    },
+    "941": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 2 ]",
+      "evaluation": null
+    },
+    "942": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 3 ]",
+      "evaluation": null
+    },
+    "943": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 4 ]",
+      "evaluation": null
+    },
+    "944": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 5 ]",
+      "evaluation": null
+    },
+    "945": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 22 ]",
+      "evaluation": null
+    },
+    "946": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 25 ]",
+      "evaluation": null
+    },
+    "947": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 28 ]",
+      "evaluation": null
+    },
+    "948": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 31 ]",
+      "evaluation": null
+    },
+    "949": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'Robert' ]",
+      "evaluation": null
+    },
+    "950": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'John' ]",
+      "evaluation": null
+    },
+    "951": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'David' ]",
+      "evaluation": null
+    },
+    "952": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'Betty' ]",
+      "evaluation": null
+    },
+    "953": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'Doe' ]",
+      "evaluation": null
+    },
+    "954": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'Luna' ]",
+      "evaluation": null
+    },
+    "955": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'Robinson' ]",
+      "evaluation": null
+    },
+    "956": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "957": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'USA' ]",
+      "evaluation": 0
+    },
+    "958": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'UK' ]",
+      "evaluation": null
+    },
+    "959": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UK' < 'UAE' ]",
+      "evaluation": null
+    },
+    "960": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 1 ]",
+      "evaluation": null
+    },
+    "961": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 2 ]",
+      "evaluation": null
+    },
+    "962": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 3 ]",
+      "evaluation": null
+    },
+    "963": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 4 ]",
+      "evaluation": null
+    },
+    "964": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 5 ]",
+      "evaluation": null
+    },
+    "965": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 22 ]",
+      "evaluation": null
+    },
+    "966": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 25 ]",
+      "evaluation": null
+    },
+    "967": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 28 ]",
+      "evaluation": null
+    },
+    "968": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 31 ]",
+      "evaluation": null
+    },
+    "969": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'Robert' ]",
+      "evaluation": null
+    },
+    "970": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'John' ]",
+      "evaluation": null
+    },
+    "971": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'David' ]",
+      "evaluation": null
+    },
+    "972": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'Betty' ]",
+      "evaluation": null
+    },
+    "973": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'Doe' ]",
+      "evaluation": null
+    },
+    "974": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'Luna' ]",
+      "evaluation": null
+    },
+    "975": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'Robinson' ]",
+      "evaluation": null
+    },
+    "976": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "977": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'USA' ]",
+      "evaluation": null
+    },
+    "978": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'UK' ]",
+      "evaluation": null
+    },
+    "979": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' = 'UAE' ]",
+      "evaluation": 0
+    },
+    "980": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 1 ]",
+      "evaluation": null
+    },
+    "981": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 2 ]",
+      "evaluation": null
+    },
+    "982": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 3 ]",
+      "evaluation": null
+    },
+    "983": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 4 ]",
+      "evaluation": null
+    },
+    "984": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 5 ]",
+      "evaluation": null
+    },
+    "985": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 22 ]",
+      "evaluation": null
+    },
+    "986": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 25 ]",
+      "evaluation": null
+    },
+    "987": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 28 ]",
+      "evaluation": null
+    },
+    "988": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 31 ]",
+      "evaluation": null
+    },
+    "989": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'Robert' ]",
+      "evaluation": null
+    },
+    "990": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'John' ]",
+      "evaluation": null
+    },
+    "991": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'David' ]",
+      "evaluation": null
+    },
+    "992": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'Betty' ]",
+      "evaluation": null
+    },
+    "993": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'Doe' ]",
+      "evaluation": null
+    },
+    "994": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'Luna' ]",
+      "evaluation": null
+    },
+    "995": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'Robinson' ]",
+      "evaluation": null
+    },
+    "996": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'Reinhartd' ]",
+      "evaluation": null
+    },
+    "997": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'USA' ]",
+      "evaluation": 0
+    },
+    "998": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'UK' ]",
+      "evaluation": 0
+    },
+    "999": {
+      "sentence": "AVG ( customer_id ) [ customer_id = 1 ] = AVG ( customer_id ) [ 'UAE' < 'UAE' ]",
+      "evaluation": null
     }
   }
 ]

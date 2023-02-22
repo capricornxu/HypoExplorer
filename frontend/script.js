@@ -64,7 +64,15 @@ function sendGrammarCallback(responseText) {
     sentences = response_data[1]
     let text = "<table border='1'>"
     for (let x in sentences) {
-        text += "<tr><td>" + sentences[x].sentence + "</td></tr>";
+        if (sentences[x].evaluation == 1){
+            text += "<tr><td>" + "<span style='color:blue'>" + "True " + sentences[x].sentence + "</span>" + "</td></tr>";
+        }else if (sentences[x].evaluation == 0){
+            text += "<tr><td>" + "<span style='color:red'>" + "False " + sentences[x].sentence + "</span>" + "</td></tr>";
+        }else{
+            text += "<tr><td>" + "<span style='color:green'>" + "Null " + sentences[x].sentence + "</span>" + "</td></tr>";
+        }
+
+        // text += "<tr><td>" + sentences[x].sentence + "</td></tr>";
     }
     text += "</table>"
     dataDiv.innerHTML = text;

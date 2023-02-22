@@ -22,7 +22,7 @@ def users():
         hypo_string = received_data
         grammar = CFG.fromstring(hypo_string)
         tree_dict = findDeterministicTree(grammar)
-        sent_dict = Iterator(grammar, 400)
+        sent_dict = Iterator(grammar, 1000)
         # print(sent_dict[0])
 
         dict_list = [tree_dict, sent_dict]
